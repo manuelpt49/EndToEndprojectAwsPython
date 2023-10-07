@@ -1,6 +1,8 @@
 # End-to-End Data Engineering Project with AWS and Python
 
 This end-to-end project utilizes AWS resources such as Redshift, Athena, S3, IAM, and Glue, and was developed using Python.
+![image](https://github.com/manuelpt49/EndToEndprojectAwsPython/assets/79064546/5bd63bf7-bf08-40b5-9f35-2c029fd0210e)
+*Copy from Darshil's videos.
 
 ## References
 This project was implemented taking into consideration Darshil's videos - [Darshil's YouTube Playlist](https://www.youtube.com/playlist?list=PLBJe2dFI4sgvavQzL2Hm5CsnoIWHY5fI3)
@@ -24,11 +26,11 @@ Use AWS Athena to query the data catalog through SQL.
 - Connect all AWS resources from the local machine within a notebook.
 - Make queries to each table in the data catalog and save responses locally for further transformation.
 - Perform preprocessing on some columns and create Dim and Fact tables to establish the data model.
-
-[Notebook: ConnectingWithAwsResources.ipynb](https://github.com/manuelpt49/EndToEndprojectAwsPython/ConnectingWithAwsResources.ipynb)
+[Notebook: ConnectingWithAwsResources.ipynb](https://github.com/manuelpt49/EndToEndprojectAwsPython/blob/main/ConnectingWithAwsResources.ipynb)
 
 ### 5. ETL Pipeline Implementation with AWS Glue
 - Use AWS Glue for ETL pipeline implementation through a notebook.
+  [Notebook: ConnectingWithAwsResources.ipynb](https://github.com/manuelpt49/EndToEndprojectAwsPython/blob/main/CopyDataGlue.ipynb)
 - Instantiate the `redshift_connector` library to connect AWS Glue with Redshift.
 - Declare the library as a parameter due to its unavailability inside Glue.
 
@@ -40,6 +42,8 @@ Use AWS Athena to query the data catalog through SQL.
 
 ### 6. Data Warehouse Availability
 Dim and Fact tables are now available in the data warehouse for reporting, model training, or other necessary purposes.
+![image](https://github.com/manuelpt49/EndToEndprojectAwsPython/assets/79064546/8f855439-fb72-479b-802e-757045e36402)
+
 
 ## Acknowledgments
 Special thanks to Darshil for his informative videos explaining end-to-end projects on various cloud providers such as AWS, Azure, and GCP.
