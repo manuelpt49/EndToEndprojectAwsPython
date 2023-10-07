@@ -10,7 +10,7 @@ This project was implemented taking into consideration Darshil's videos - [Darsh
 ## Project Workflow
 
 ### 1. Loading Files into S3
-Manually load files into S3. The file proportions are explained in the first video of the link shared above.
+Manually load files into S3. The files are proportioned in the first video of the link shared above.
 
 ### 2. Getting Data Using AWS Glue Crawlers
 Use AWS Glue Crawlers to create metadata in the data catalog for subsequent querying.
@@ -23,8 +23,8 @@ Use AWS Athena to query the data catalog through SQL.
 ![Image: AWS Athena Query](https://github.com/manuelpt49/EndToEndprojectAwsPython/assets/79064546/62494d2f-31bf-4a09-9ae3-261958369a17)
 
 ### 4. Data Transformation with Python (boto3 library)
-- Connect all AWS resources from the local machine within a notebook.
-- Make queries to each table in the data catalog and save responses locally for further transformation.
+- Connect all AWS resources in the local machine within a notebook.
+- Make queries to each table in the data catalog and save responses locally for transformation.
 - Perform preprocessing on some columns and create Dim and Fact tables to establish the data model.
 [Notebook: ConnectingWithAwsResources.ipynb](https://github.com/manuelpt49/EndToEndprojectAwsPython/blob/main/ConnectingWithAwsResources.ipynb)
 
